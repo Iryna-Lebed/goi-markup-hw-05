@@ -378,19 +378,20 @@
             </div>
             <div class="subscribe-footer">
                 <p class="footer-social-text">Subscribe</p>
-                <ol class="subscribe-footer-list">
+                <form class="subscribe-footer-form">
+                    <label class="subscribe-footer-lable">
                     <input class="footer-input"
                             type="email"
                             placeholder="E-mail"
                             name="user-email"
                             required/>  
-                    <button class="footer-btn" type="submit">Subscribe<span class="footer-icon-send">
-                        <svg class="icon-footer-subscribe" width="24" height="20">
+                    <button class="footer-btn" type="submit">Subscribe
+                        <svg class="icon-footer-subscribe" width="24" height="24">
                             <use class="icon-footer-subscribe-use" href="./images/icons.svg#icon-icon-send"></use>
                         </svg>
-                    </span> </button>
-
-                </ol>   
+                     </button>
+                </label>
+                </form>   
             </div>
         </div>
             </footer>
@@ -404,9 +405,9 @@
                         <use href="./images/icons.svg#icon-close-black-18dp-2-1" ></use>
                     </svg>
                 </button>
-                
+                <p class="review-form-description">Leave your contacts and we will call you back</p>
                 <form class="review-form">
-                    <p class="review-form-description">Leave your contacts and we will call you back</p>
+                    
                    <div class="review-form-wrapper" >
                     <lable  for="user-name" class="review-form-lable">Name</lable>
                     <div class="form-wraper-input-icon">
@@ -479,7 +480,9 @@
                         </label>
                     </div>
                     
-                    <div class="btn-form"><button class="review-form-btn" type="submit">Send</button></div>
+                    <div class="btn-form">
+                        <button class="review-form-btn" type="submit">Send</button>
+                    </div>
                  </form> 
                 </div>
             </div> 
