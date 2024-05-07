@@ -384,13 +384,13 @@
                             type="email"
                             placeholder="E-mail"
                             name="user-email"
-                            required/>  
+                            required/>  </label>
                     <button class="footer-btn" type="submit">Subscribe
                         <svg class="icon-footer-subscribe" width="24" height="24">
                             <use class="icon-footer-subscribe-use" href="./images/icons.svg#icon-icon-send"></use>
                         </svg>
                      </button>
-                </label>
+                
                 </form>   
             </div>
         </div>
@@ -409,7 +409,7 @@
                 <form class="review-form">
                     
                    <div class="review-form-wrapper" >
-                    <lable  for="user-name" class="review-form-lable">Name</lable>
+                    <lable for="user-name" class="review-form-lable">Name</lable>
                     <div class="form-wraper-input-icon">
                         <input class="review-form-input"
                         type="text"
@@ -454,23 +454,24 @@
                        
                     </div>
 
-                    <div class="review-form-wrapper">
-                        <lable  class="review-form-lable">Comment</lable>
+                    <div class="review-form-wrapper textarea-form">
+                        <lable for="user-comment" class="review-form-lable">Comment</lable>
                         <textarea class="review-form-textarea"
                         name="user-comment"
                         rows="5"
+                        id="user-comment"
                         placeholder="Text input"></textarea>
                     </div>
 
                     <div class="review-form-checkbox-wraper">
-                        <input class="review-form-checkbox"
-                        id="privacy policy"
+                        <input class="review-form-checkbox visually-hidden"
+                        id="user-privacy"
                         type="checkbox"
-                        name="privacy policy"
+                        name="user-privacy"
                         value="true"
                         required/>
-                        <label class="review-form-checkbox-lable" for="privacy policy">
-                            <span class="custom-checkbox visually-hidden">
+                        <label class="review-form-checkbox-lable" for="user-privacy">
+                            <span class="custom-checkbox">
                                <svg class="choose-checkbox" width="10" height="8">
     
                                   <use href="./images/icons.svg#icon-Vector"></use>
@@ -480,9 +481,9 @@
                         </label>
                     </div>
                     
-                    <div class="btn-form">
+                   
                         <button class="review-form-btn" type="submit">Send</button>
-                    </div>
+                    
                  </form> 
                 </div>
             </div> 
