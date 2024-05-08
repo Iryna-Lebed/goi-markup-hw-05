@@ -745,7 +745,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .review-form-input:focus + .form-icons{
-    stroke: #4d5ae5;
+    fill: #4d5ae5;
 }
 
 .form-wraper-input-icon{
